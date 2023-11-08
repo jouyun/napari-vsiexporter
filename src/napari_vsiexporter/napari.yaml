@@ -1,0 +1,15 @@
+name: napari-vsiexporter
+display_name: VSI Exporter
+contributions:
+  commands:
+    - id: napari-vsiexporter.make_qwidget
+      python_name: napari_vsiexporter._widget:VSISelectQWidget
+      title: Make example QWidget
+    - id: napari-vsiexporter.make_XMLqwidget
+      python_name: napari_vsiexporter._widget:VSISelectXMLQWidget
+      title: Make example QWidget
+  widgets:
+    - command: napari-vsiexporter.make_qwidget
+      display_name: VSI Select Widget
+    - command: napari-vsiexporter.make_XMLqwidget
+      display_name: VSI Select XML Widget

@@ -1,0 +1,7 @@
+numpy
+scipy
+scikit-image
+dask
+opencv-python
+PyQt5
+napari
